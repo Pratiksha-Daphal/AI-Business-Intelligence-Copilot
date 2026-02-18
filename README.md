@@ -25,7 +25,7 @@ This project is built with a production-style GenAI architecture, focusing on re
 🖥️ Application Overview
 🏠 Main Chat Interface
 <!-- Add screenshot of main UI -->
-
+<img width="1920" height="1080" alt="Time series based Analytics" src="https://github.com/user-attachments/assets/2ff66942-b4d8-491e-a532-c84d99e8df45" />
 Users can ask questions in plain English (or via voice) and receive:
 
 tables
@@ -45,7 +45,7 @@ Speech is transcribed and processed through the same BI pipeline.
 
 📈 Business Intelligence & Analytics
 <!-- Add analytics chart screenshot -->
-
+<img width="1767" height="603" alt="business knowledge" src="https://github.com/user-attachments/assets/fb4d34c5-f184-42b6-a888-7108fd9b1270" />
 Examples:
 
 Monthly revenue trends
@@ -58,7 +58,7 @@ Charts and tables are automatically generated.
 
 🔁 Contextual Follow-Up Questions
 <!-- Add follow-up interaction screenshot -->
-
+<img width="1920" height="903" alt="Context based Analytics" src="https://github.com/user-attachments/assets/954e14e9-0405-4cc8-8186-02cfc31027d1" />
 After an analysis, users can ask:
 
 “Why did it drop?”
@@ -69,6 +69,7 @@ The system uses active session context to answer intelligently.
 
 🔮 Forecasting (Time-Series)
 <!-- Add forecast chart screenshot -->
+<img width="1920" height="1080" alt="Forecasting" src="https://github.com/user-attachments/assets/56eca29c-53c6-47d7-b47d-8f737d8b250c" />
 
 Forecasts monthly revenue for the next 3 months
 
