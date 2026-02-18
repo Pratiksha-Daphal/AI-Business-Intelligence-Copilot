@@ -1,0 +1,14 @@
+pip install fastapi uvicorn streamlit
+pip install pandas numpy matplotlib plotly
+pip install scikit-learn xgboost prophet shap
+pip install langchain langchain-community
+pip install faiss-cpu
+pip install sqlalchemy pydantic
+pip install mlflow requests
+
+dataset used = https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
+
+To run UI
+ Powershell> streamlit run frontend/app.py
+  Local URL: http://localhost:8501
+  Network URL: http://192.168.1.5:8501
