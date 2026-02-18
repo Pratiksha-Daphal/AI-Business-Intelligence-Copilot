@@ -25,7 +25,8 @@ This project is built with a production-style GenAI architecture, focusing on re
 🖥️ Application Overview
 🏠 Main Chat Interface
 <!-- Add screenshot of main UI -->
-<img width="1920" height="1080" alt="Time series based Analytics" src="https://github.com/user-attachments/assets/2ff66942-b4d8-491e-a532-c84d99e8df45" />
+<img width="1855" height="831" alt="image" src="https://github.com/user-attachments/assets/a6230aba-eb41-4b33-aeb4-1c79f8a3a2d3" />
+
 Users can ask questions in plain English (or via voice) and receive:
 
 tables
@@ -33,6 +34,8 @@ tables
 charts
 
 business explanations
+<img width="1920" height="1080" alt="Time series based Analytics" src="https://github.com/user-attachments/assets/2ff66942-b4d8-491e-a532-c84d99e8df45" />
+
 
 🎤 Voice-Enabled Queries (Multimodal)
 <!-- Add screenshot of mic recording -->
@@ -113,3 +116,5 @@ Whisper (Speech-to-Text) – voice input
 Pandas / NumPy – data processing
 
 Matplotlib / Streamlit charts – visualization
+
+Prophet - Time series Forecasting
