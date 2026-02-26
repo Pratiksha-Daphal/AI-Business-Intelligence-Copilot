@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+app = FastAPI()
 from typing import Dict, Any
 import traceback
 from analytics.forecast_engine import forecast_monthly_revenue
@@ -17,7 +18,11 @@ from analytics.sql_engine import execute_sql
 from llm.business_qa import answer_business_question
 from llm.insight_qa import answer_analytics_followup
 
-app = FastAPI()
+
+
+
+#from llm.sql_model import generate_sql
+
 
 @app.post("/speech")
 async def speech_query(file: UploadFile = File(...)):

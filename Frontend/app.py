@@ -5,7 +5,7 @@ import pandas as pd
 API_URL = "http://127.0.0.1:8000/chat"
 
 st.set_page_config(page_title="AI BI Copilot", layout="wide")
-st.title("📊 AI Business Intelligence Copilot")
+st.header("📊 AI Business Intelligence Copilot")
 
 # ---------------- Session State ----------------
 if "context" not in st.session_state:
@@ -44,7 +44,7 @@ for msg in st.session_state.history:
                 st.bar_chart(df.set_index(df.columns[0]))
 
 #input for voice query
-st.subheader("🎤 Ask by Voice (Live)")
+# st.subheader("🎤 Ask by Voice (Live)")
 SPEECH_URL = API_URL.replace("/chat", "") + "/speech"
 audio = st.audio_input("Record your question")
 
@@ -69,7 +69,7 @@ if audio is not None:
         user_query = recognized_text
 
 
-st.subheader("🎤 Ask by voice")
+# st.subheader("🎤 Ask by voice")
 
 audio_file = st.file_uploader(
     "Upload an audio query (wav/mp3)",
@@ -112,7 +112,7 @@ if query:
 
     with st.chat_message("assistant"):
         with st.spinner("Thinking..."):
-            response = requests.post(API_URL, json=payload, timeout=180)
+            response = requests.post(API_URL, json=payload, timeout=420)
             if not response.text.strip():
                 st.error("Backend returned an empty response.")
                 st.stop()
